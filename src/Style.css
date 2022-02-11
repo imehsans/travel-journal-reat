@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    text-align: center;
+    height: 80px;
+    padding: 20px 36px;
+    box-shadow: 10px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: chocolate;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    position: relative;
+}
+
+.nav--logo {
+    max-width: 40px;
+   margin: 0 60px;
+
+}
+
+
+
+
+.card {
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card--img {
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.card--icon {
+    width: 20px;
+    height: 20px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card--div2 {
+    padding-top:20px;
+    padding-left: 20px;
+}
+
+.card--div2 > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: cadetblue;
+    margin-bottom: -20px;
+
+}
+
+.card--a{
+    color: cadetblue;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+#edate {
+    color:  black;
+    padding-left: 20px;
+    font-weight : bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#sdate {
+    color:  black;
+    font-weight : bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card--p {
+    position: relative;
+    font-size: 16px;
+    color: black;
+    width: 300px;
+}
+
